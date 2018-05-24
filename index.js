@@ -3,7 +3,8 @@ process.stdin.on('readable', () => {
   var input = process.stdin.read();
   if(input !== null) {
     var result = sentiment(input)
-    process.stdout.write(`stdout: ${JSON.stringify(result)}\n`);
+    process.stdout.write(JSON.stringify(result));
+    process.exit();
   }
 });
 
