@@ -1,4 +1,4 @@
-FROM resin/raspberrypi3-node
+FROM arm32v7/node
 
 # Create app directory
 WORKDIR /usr/src/app
