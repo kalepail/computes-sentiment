@@ -1,4 +1,4 @@
-FROM node:carbon
+FROM resin/raspberrypi3-node
 
 # Create app directory
 WORKDIR /usr/src/app
